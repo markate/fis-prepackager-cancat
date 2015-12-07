@@ -2,11 +2,17 @@
 
 使用方式：
 
+1、npm install fis-prepackager-cancat
+
+2、使用如下：
+
 fis.match('::package', {
     packager : fis.plugin('concat', {
         match : '/templates/*.twig',
         packTo : '/javascripts/all.js'
     })
 });
+
+
 
 
